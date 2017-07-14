@@ -46,8 +46,8 @@
 		<jboss-j2ee.version>4.3.0.GA_CP07</jboss-j2ee.version>
 		<!-- Otras propiedades -->
 		<skip.deploy.production>true</skip.deploy.production>
-		<jacoco.it.execution.data.file>${project.build.directory}/coverage-reports/jacoco-it.exec</jacoco.it.execution.data.file>
-		<jacoco.ut.execution.data.file>${project.build.directory}/coverage-reports/jacoco-ut.exec</jacoco.ut.execution.data.file>
+		<jacoco.it.execution.data.file>${project.build.directory}/jacoco-it.exec</jacoco.it.execution.data.file>
+		<jacoco.ut.execution.data.file>${project.build.directory}/jacoco.exec</jacoco.ut.execution.data.file>
 	</properties>
 
 	<profiles>
